@@ -1,0 +1,7 @@
+1.when enter the domain name, we make a HTTP request to website. (domain name example: amazon.com, nba.com.etc...)
+2.We get back a response from the server that amazon.com is associated with.
+3.The response is a webpage (front-end)
+4.A web page consist of: HTML, CSS, JavaScript
+5.HTML = Content of the page (Bold text, regular text, form inputs, images, etc..)
+6.CSS = styling of the content (layouts, colors, making content next to the content)
+7.JS = Interactivity (clicking, hovering, scrolling, typing) between the user and the webpage which result in modification of the HTML and CSS.
