@@ -9,12 +9,12 @@
 
 .b2{
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: rgb(50, 238, 175);
+    width: 50px;
+    height: 50px;
+    background-color: rgb(83, 204, 164);
     border:none;
-    margin-left: 2em;
-    font-size: 30px;
+    margin-left: 1.5em;
+    font-size: 35px;
     color: white;
 }
 
