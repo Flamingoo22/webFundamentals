@@ -1,0 +1,29 @@
+.b1{
+    border-radius: 20px;
+    color: rgb(108, 194, 194);
+    border-color: rgb(83, 179, 179);
+    margin: 2em 2em .5em 3em;
+    padding: 10px 40px;
+    font-size: 15px;
+}
+
+.b2{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 238, 175);
+    border:none;
+    margin-left: 2em;
+    font-size: 30px;
+    color: white;
+}
+
+.b3{
+    background-color:rgb(0, 153, 255);
+    color: white;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    font-size: 20px;
+    padding: 5px 20px;
+    box-shadow: 5px 5px 1px black;
+}
