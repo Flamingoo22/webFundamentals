@@ -72,3 +72,7 @@ text{
         There is a lot to know about fonts, but for now let's focus on the basic types: serif, sans-serif, monospace, and cursive.
     }
 }
+
+*{
+    box-sizing:bor  dersize
+}

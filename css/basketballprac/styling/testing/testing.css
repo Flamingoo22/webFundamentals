@@ -1,0 +1,31 @@
+/* p {
+    display: inline-block;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: rgb(12, 184, 184);
+    margin: 10px;
+} */
+/* h1, h2 {
+    display: inline;
+    background-color: cyan;
+} */
+/* label, input {
+    display: block;
+}
+h1, h2 {
+    display: inline-block;
+    background-color: cyan;
+    width: 200px;  this won't work!!! 
+}  
+*/
+p {
+    display: inline-block;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: lightgreen;
+    margin: 10px;
+    vertical-align: top;
+}
+
