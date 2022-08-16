@@ -1,0 +1,8 @@
+//JS
+
+a data type is a simple piece of information such as a string, number, boolean.
+
+a data structure that can store multiple data type (array,objects(hash map),trees, linked list, etc...);
+
+values inside the array are called elements;
+

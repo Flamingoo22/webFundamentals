@@ -1,0 +1,128 @@
+1.Type Selector:
+a{
+    selects all <a> element;
+}
+
+
+2.ID Selector
+#big{
+    selects any element with id="big";
+}
+
+3.Descendant Selector
+a b{
+    selects all the <b> inside the <a>;
+}
+
+4.class Selector
+.small{
+    selects all elements with class="small" attribute;
+}
+
+5.Adjacent Sibling Selector
+a + .small{
+    selects all class="small" that directly follow after <a>;
+}
+
+6.General Sibiling Selector
+a ~ b{
+    selects all <b> element sibling with <a>;
+}
+
+7.Child Selector
+a > b{
+    selects all <b> element thats the direct child of <a>;
+}
+
+8.first child pseudo Selector
+a b:first-child{
+    selects first<b> element inside <a>;
+}
+
+9.Only child pseudo Selector
+a *:only-child{
+    selects everything that's only 1 single element inside<a>;
+}
+
+10.last child pseudo Selector
+a,b:last-child{
+    selects all <a> and <b> if they are the last child;
+}
+
+11.Nth child pseudo Selector
+a:nth-child(2){
+    selects the second child of <a>;
+}
+
+12.nth last child pseudo Selector
+a:nth-last-child(2){
+    select all <a> that's second to last-child;
+}
+
+13.first of type Selector
+a:first-of-type-selector{
+    select first <a> in any element;
+}
+
+14.nth of type Selector
+a:nth-of-type(even){
+    selector all even instances within <a>;
+}
+
+15.nth-of-type selector with formula
+a:nth-of-type(2n+3){
+    selects every 2nd instance of <a> after 3rd instance; 
+}
+
+16.only of type Selector:
+p span:only-of-type{
+    selects a <span> within any <p> if only <span> in there;
+}
+
+17.last of type selector:
+div p:last-of-type{
+    select last <p> in every <div>;
+}
+
+18.empty Selector
+div:empty{
+    select every <div> that has no child;
+}
+
+19.negation pseudo Selector
+div:not(:first-child){
+    select every <div> that is not a first child;
+}
+
+20.attribute Selector
+[for]{
+    selects every element has (for=) attribute;
+}
+
+input[text]{
+    select any <input> with text attribute
+}
+
+21.attribute value Selector
+[type="checkbox"]{
+    selects all type attribute with checkbox as value;
+}
+
+22.attribute starts with Selector
+[attribute^="value"]{
+    ;
+}
+
+23.attribute ends with Selector
+[attribute$="value"]{
+    ;
+}
+
+24.attribute Wildcard Selector
+[attribute*="value"]{
+    ;
+}
+
+[type*="te"]{
+    selects all type attribute with value with the letter "te";
+}

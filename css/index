@@ -1,0 +1,74 @@
+Class
+
+<p class="is-centered">This text should be center aligned</p>
+<p>This text should remain left-aligned</p>
+<p class="is-red">This text should be red</p>
+
+
+.is-centered {
+    text-align: center;
+}
+.is-red {
+    color: red;
+}
+
+Selecting ID
+id should be unique and only use once.
+
+<div id="game">
+    <img id="player" src="walk-animation.gif" alt="player sprite">
+</div>
+#game {
+    width: 320px;
+    height: 240px;
+    overflow: hidden;
+    background: linear-gradient(#1293f5, #bae8ff 80%, #35b236 80%);
+}
+#player {
+    margin-top: 140px;
+    margin-left: 50px;
+}
+
+
+
+color{
+    named color: black, white,red, etc..  color:black;
+    color:rgb(0-255,0-255,0-255);
+    hexadecimal 0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f; ff express 255; e.g. #ff00ff is same as rgb(255,0,255);
+}
+
+color: 
+background-color:
+//Background color can be applied to a multitude of elements (body, div, thead, etc...), not just ones obviously containing text.
+
+text{
+    Objectives{
+        Learn about text-align and text-decoration;
+        Learn about font-weight, font-style and font-family;
+    }
+    text-alignment{
+        text-align:left;
+        text-align:center;
+        text-align:right;
+    }
+    text-decoration{
+        text-decoration:underline;
+        text-decoration:linethrough;
+        text-decoration:none;
+    }
+    font-style{
+        font-style:italic;
+        font-style:normal;
+    }
+    font-weight{
+        font-weight:normal;
+        font-weight:light;
+        font-weight:bold;
+        The font-weight property also accepts number values: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+        Note that font-weight will only be applied if the font-family contains styles for it;
+    }
+    font-family
+        Font Family
+        There is a lot to know about fonts, but for now let's focus on the basic types: serif, sans-serif, monospace, and cursive.
+    }
+}

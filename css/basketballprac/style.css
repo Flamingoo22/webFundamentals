@@ -1,0 +1,59 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    color:chocolate;
+    background-color: blanchedalmond;
+    font-size:50px;
+    text-align: center;
+}
+
+#slogan{
+    color:red;
+    text-align: right;
+    font-size: 20px;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: underline;
+    
+}
+
+#fact{
+    color:blue;
+}
+
+li{
+    color:darkolivegreen;
+    font-weight: bold;
+}
+
+button{
+    background-color: yellow;
+    color: brown;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+}
+.round-btn{
+    border-radius:50%;
+}
+
+.shadow{
+    box-shadow: 3px 3px 3px black;
+    /*      left-right / up-down / transparency */
+}
+/* 
+h1 is the selector
+
+color is the css property
+chocolate is the value
+color:chocolate; ----> this combo of property + value = css rule
+
+
+selector::afterselect the whole element (example: p, h1, h3) -> will select all element taht are p, or h1, h3
+
+select only one element and apply some style to one element only -> id
+
+select multiple elements and give multiple elements similar style
+*/ 
