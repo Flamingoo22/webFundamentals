@@ -1,48 +1,48 @@
 *{
     margin: 0px;
     box-sizing: border-box;
-
 }
 .container{
     width: 950px;
+    height: 590px;
+    padding: 10px;
     background-color: silver;
-    margin: 0px auto;
-    padding: 20px;
-    display:flex;
-    flex-wrap: wrap;
+    margin: 20px auto;
 }
 .top-nav {
-    display:inline-block;
-    margin: 5px;
     height: 150px;
-    width: 900px;
+    width: 915px;
+    margin: 5px;
     background-color: green;
 }
 .side-nav {
-    margin: 5px;
     height: 300px;
     width: 200px;
+    margin: 5px;
     background-color: blue;
 }
 .main {
-    box-sizing: border-box;
-    margin: 5px;
-    padding: 10px;
     height: 400px;
-    width: 690px;
-    display:flex;
-    flex-wrap: wrap;
+    width: 705px;
+    margin: 5px;
+    padding: 5px;
     background-color: red;
 }
 .sub-content {
-    margin: 5px;
     height: 200px;
-    width: 200px;
+    width: 210px;
+    margin:10px;
     background-color: yellow;
 }
 #advertisement {
-    margin: 5px;
     height: 120px;
-    width: 630px;
+    width: 660px;
+    margin: 10px;
     background-color: purple;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
