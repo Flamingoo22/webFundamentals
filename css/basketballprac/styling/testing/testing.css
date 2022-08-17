@@ -20,7 +20,7 @@ h1, h2 {
 }  
 */
 p {
-    display: inline-block;
+    display: flex;
     width: 200px;
     box-sizing: border-box;
     padding: 20px;
@@ -28,4 +28,3 @@ p {
     margin: 10px;
     vertical-align: top;
 }
-

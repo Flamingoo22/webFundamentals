@@ -8,40 +8,39 @@
     background-color: silver;
     margin: 0px auto;
     padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
 }
 .top-nav {
-    display:block;
+    display:inline-block;
     margin: 5px;
     height: 150px;
+    width: 900px;
     background-color: green;
 }
 .side-nav {
-    display: inline-block;
     margin: 5px;
     height: 300px;
     width: 200px;
-    vertical-align: top;
     background-color: blue;
 }
 .main {
-    vertical-align: top;
-    display: inline-block;
     box-sizing: border-box;
     margin: 5px;
     padding: 10px;
     height: 400px;
-    width: 685px;
+    width: 690px;
+    display:flex;
+    flex-wrap: wrap;
     background-color: red;
 }
 .sub-content {
-    display: inline-block;
     margin: 5px;
     height: 200px;
     width: 200px;
     background-color: yellow;
 }
 #advertisement {
-    display: inline-block;
     margin: 5px;
     height: 120px;
     width: 630px;
