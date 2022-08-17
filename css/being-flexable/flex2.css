@@ -1,0 +1,37 @@
+body{
+    background-color:aquamarine
+}
+
+.row {
+    display: flex;
+    gap:10px;
+    /* border: 1px solid red; */
+    padding: 10px 0px;
+}
+.col{
+    flex:1;
+    background: lightcyan;
+    padding: 20px;
+    border: 1px solid black;
+}
+.col-1 {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    background-color: lightcyan;
+}
+.col-2 {
+    flex: 2;
+    padding: 20px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    background-color: lightcyan;
+}
+.col-3 {
+    flex: 3;
+    padding: 20px;
+    border: 1px solid black;
+    /* margin: 10px; */
+    background-color: lightcyan;
+}
