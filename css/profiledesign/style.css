@@ -3,6 +3,7 @@
     padding: 0;
     outline: 0;
     font-family: cursive;
+    box-sizing: border-box;
 }
 body{
     background-color: white;
@@ -25,7 +26,7 @@ body{
     justify-content: space-between;
     width: 30%;
 }
-ul>a{
+#header a{
     text-decoration: none;
     font-size: 25px;
     margin-right: 55px;
@@ -36,13 +37,14 @@ h1{
     color:white;
     font-size: 60px;
 }
-button{
+#header>button{
     background-color: rgb(26, 162, 184);
     font-size: 1.3em;
     color: white;
     padding: 8px;
     border-radius: 10px;
 }
+
 #content{
     padding: 50px;
     display: flex;
@@ -51,6 +53,7 @@ button{
     flex-direction: row;
     gap: 20px;
 }
+
 #right-block{
     margin-left: 15%;
     width: 60%;
@@ -64,11 +67,12 @@ button{
     width:40%;
     display: flex;
     flex-direction: column;
-    gap:20px;
+    gap:40px;
 }
-#profile{
+
+/* #profile{
     width: 100%;
-}
+} */
 
 
 #container{
@@ -92,49 +96,62 @@ button{
     flex: 2;
     gap: 10px;
     background-color:white;
-    width: 96%;
+    width: 95%;
     margin: 30px;
     font-size: 20px;
 }
-div > img{
-    height: 150px;
-    width: 150px;
+
+#upper > img{
+    height: 170px;
+    border-radius: 50%;
     position: relative;
     bottom:-70px;
-    padding-left: 30px;
+    left:40px;
+    border: 2px double black;
 }
-p>img , a > img{
+
+#lower img{
     height: 20px;
 }
+
 #lower>h2{
     font-size: 50px;
 }
+
 #education{
     width: 100%;
     border: 3px solid grey;
 }
+
 .sheader{
     background-color: rgb(39, 39, 39);
     color:white;
     padding: 15px;
     font-size: 30px;
+    display: flex;
+    justify-content: space-between;
 }
+
 h2~ul{
     padding: 30px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 h2~ul>li{
     list-style: none;
 }
+
 h2~ul>li:first-child{
     font-size:25px;
 }
+
 h2~ul>li:nth-child(2){
     font-size:20px;
     color: rgba(68, 68, 68, 0.664);
 }
+
 h2~ul>li:nth-child(3){
     font-size:20px;
     color: black;
@@ -146,40 +163,53 @@ h2~ul>li:nth-child(3){
 }
 
 .pfp{
-    height: 60px;
-    border-radius: 50%;
     position: relative;
     top:10px;
     border: 1px solid black;
 }
-
-h3~ul{
+#request{
     padding: 20px;
+}
+.request{
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+}
+
+.block ul{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
     align-items: flex-start;
     list-style: none;
     font-size: 35px;
-    /* border: 2px solid grey; */
     gap:10px;
 }
+
 h3~ul>li{
     margin: 10px 0px;
 }
-.right{
+
+.block img{
     height: 60px;
-    margin-left:195px ;
-}
-.right1{
-    height:60px;
-    margin-left: 165px;
-}
-.x{
-    height:60px;
+    border-radius: 50%;
 }
 
 .view{
     font-size: 25px;
     padding: 10px;
+    width: 100%;
+}
+
+.request div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+
+.request button{
+    border: 0px;
 }

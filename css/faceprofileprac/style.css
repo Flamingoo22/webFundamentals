@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-image: linear-gradient(to bottom,grey,white);
+    height: 100vh;
+    padding: 0px 200px;
+}
+
+#container{
+    height:100%;
+}
+
+#coverphoto{
+    height: 60%;
+    background: url(imgs/treeroot.png);
+    border-radius:0px 0px 10px 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#coverphoto>button{
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#coverphoto>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px double white;
+    background-color: blue;
+    position: relative;
+    top:120px;
+    left:40px;
+}
+#info{
+    padding-left: 220px;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+}
+#row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#info>p{
+    color: grey;
+}
+
+#rleft, #rright{
+    width: 200px;
+}
+
+#rleft>img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+}
+
+#addtostory,#editprofile{
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+}
+#addtostory{
+    background-color: rgba(0, 0, 255, 0.87);
+    color: white;
+}
+#editprofile{
+    background-color: rgb(180, 179, 179);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 100%;
+}
+
+#navlink{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+#navlink~button{
+    padding: 0px 10px;
+}
+
+#navlink a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+#cookie-box{
+    border: 1px solid red;
+    height: 100px;
+    background-color: rgba(0, 255, 255, 0.103);
+    position: fixed;
+    bottom: 10px;
+    width: 1000px;
+}
+
