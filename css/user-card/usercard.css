@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     font-family: cursive;
-    /* border: 1px solid red; */
+    box-sizing: border-box;
+    border: 1px solid red;
 }
 body{
     /* padding:50px 500px; */
