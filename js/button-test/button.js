@@ -9,6 +9,13 @@
 // function turnOff(element) {
 //     element.innerText = "Off";
 // }
-function hide(element) {
-    element.remove();
+// function hide(element) {
+//     element.remove();
+// }
+
+function addshadow(element){
+    alert("mouseover");
+}
+function removeshadow(element){
+    alert("mouseout");
 }

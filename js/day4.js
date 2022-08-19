@@ -17,3 +17,9 @@ let newNum = addNum(5,2) + 100;
 console.log("new number is " + newNum);
 
 //The value of a function call is whatever that function call RETURN!!
+
+
+//day 5
+
+//destructure swap
+[a,b]=[b,a];
