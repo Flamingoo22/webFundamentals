@@ -1,0 +1,33 @@
+#fav-animal{
+    height:300px;
+
+}
+
+.btn {
+    height: 30px;
+    width: 70px;
+    background-color: dodgerblue;
+    color:#fff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 4px 4px #222;
+}
+
+.btn {
+    height: 30px;
+    width: 170px;
+    background-color: dodgerblue;
+    color:#fff;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 4px 4px #222;
+}
+
+.dark-mode{
+    background-color: black;
+    color: #fff;
+}
+
+.light-mode{
+    background-color: aliceblue;    
+}

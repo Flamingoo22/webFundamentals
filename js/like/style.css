@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px 40%;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    box-shadow: 2px 2px black;
+    padding: 2px;
+    font-size: 1.2em;
+    padding: 2px 15px;
+
+}
+#container > p{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+}
