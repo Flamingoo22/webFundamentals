@@ -23,14 +23,14 @@
                 <!-- Profile Section -->
                 <div id="container">
                     <div id="upper">
-                        <img src="images/jane-m.jpg" alt="">
+                        <img id="profilepic" src="images/jane-m.jpg" alt="">
                     </div>
                     <div id="lower">
                         <h2>Jane Doe</h2>
                         <p><img src="icons/map-marker.png" alt="">  Seattle</p>
                         <p>Developer | Engineer | Problem Solver</p>
                         <p>Master of shadows and the Internet!</p>
-                        <a href="#"><img src="icons/gear.png" alt="">   edit profile</a>
+                        <a href="#" onclick="changename(this)"><img src="icons/gear.png" alt="">   edit profile</a>
                     </div>   
                 </div>
             </div>
@@ -44,35 +44,39 @@
             </div>
         </div>
         <div id="left-block">
-            <div class="block"> 
-                <h3 class="sheader">Connection Requests</h3>
-                <div class="request">
-                    <div class="person">
+            <div id="requestblock" class="block"> 
+                <h3  class="sheader"><span id="numrequest">2</span>Connection Requests</h3>
+                <div id="tod" class="request">
+                    <li id="try" class="person">
                         <img class="pfp" src="images/todd-s.jpg" alt="Todd">
                         <p>Todd E</p> 
-                    </div>
+                    </li>
                     <div >
-                        <button>
+                        <button onclick="addtod()">
                             <img src="icons/accept-circle.png" alt="accept">
                         </button> 
-                        <button>
+                        <button onclick="removetod()">
                             <img src="icons/close-circle.png" alt="deny">
                         </button>
                     </div>
                 </div>
-                <div class="request">
-                    <div class="person">
+                <div id="phil" class="request">
+                    <li id="try2" class="person">
                         <img class="pfp" src="images/phil-s.jpg" alt="Phil"> 
                         <p>Phil K</p>
-                    </div>
-                        <div><button><img src="icons/accept-circle.png" alt="accept"></button>
-                        <button><img src="icons/close-circle.png" alt="deny"></button>
+                    </li>
+                        <div><button onclick="addphil()">
+                            <img src="icons/accept-circle.png" alt="accept">
+                        </button>
+                        <button onclick="removephil()">
+                            <img src="icons/close-circle.png" alt="deny">
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="block"> 
-                <h3 class="sheader">Your Connections</h3>
-                <ul>
+                <h3 class="sheader"><span id="numconnection">418</span>Your Connections</h3>
+                <ul id="conlist">
                     <li class="person"> <img class="pfp" src="images/adrien-s.jpg" alt="Adrien"> <p> Adrien D</p></li>
                     <li class="person"> <img class="pfp" src="images/anne-s.jpg" alt="Anne"> <p>Anne J</p></li>
                     <li class="person"> <img class="pfp" src="images/alayne-s.jpg" alt="Alayne"> <p>Alayne T</p></li>
@@ -82,5 +86,6 @@
             </div>   
         </div>
     </div>
+    <script src="profiledesign.js"></script>
 </body>
 </html>

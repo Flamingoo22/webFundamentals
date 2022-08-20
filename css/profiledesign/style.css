@@ -124,7 +124,25 @@ h1{
     padding: 15px;
     font-size: 30px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+}
+
+#numrequest{
+    background-color: rgb(204,204,204);
+    border-radius: 50%;
+    color: black;
+    width: 40px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#numconnection{
+    background-color: rgb(204,204,204);
+    border-radius: 50%;
+    color: black;
+    text-align: center;
+    margin-right: 20px;
+    width: 70px ;
 }
 
 h2~ul{
