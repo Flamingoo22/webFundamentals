@@ -1,0 +1,188 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body{
+    padding: 0 20%;
+    background-color: black;
+}
+
+#outter{
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    padding: 3%;
+    justify-content: space-between;
+    background-color: rgb(127,255,213);
+    align-items: center;
+}
+
+h1{
+    font-size: 3em;
+}
+
+#searchbar{
+    display: flex;
+    width: 45%;
+    gap: 5px;
+}
+
+#searchbar input{
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid rgb(118,118,118);
+}
+
+button{
+        box-shadow: 3px 3px black;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+#header button{
+    background-color: rgb(223,184,136);
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#left{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ita{
+    font-style: italic;
+}
+
+.dog{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    align-items: center;
+    gap: 50px;
+}
+
+.dog img{
+    height: 150px;
+    width: 150px;
+}
+
+.doginfo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.dog h2{
+    font-size: 2em;
+}
+
+.dog p{
+    flex: 4;
+    font-size: 1.3em;
+}
+
+.dog button{
+    margin-top: 10px;
+    background-color: rgb(127,255,213);
+    width: 50%;
+
+}
+
+#right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#upload{
+    padding: 25px  15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid black;
+}
+
+#upload p{
+    font-size: 1.3em;
+}
+
+#upload button{
+    background-color: rgb(210,105,30);
+    width: 50%;
+    white-space: nowrap;
+    width: 50%;
+}
+
+#dogvid{
+    padding: 25px 15px;
+    gap: 10px;
+    border: 2px solid black;
+}
+
+#dogvid video{
+    width: 250px;
+    margin-top: 15px;
+}
+
+#dogvid p{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#cookie{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 57%;
+    background-color: rgb(128,128,128);
+    height: 150px;
+    border: 2px double black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#cookie img{
+    height: 100%;
+}
+
+#cookie p{
+    font-size: 1.5em;
+}
+
+#cookie button{
+    background-color:rgb(21,0,255);
+    color: aliceblue;
+    width: 20%;
+    height: 50%;
+    padding: 0 20px;
+    font-size: 1.5em;
+}
