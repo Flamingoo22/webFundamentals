@@ -16,6 +16,6 @@ var cheese =["blue", "hard", "pasta filata", "processed", "semi-hard"];
 var toppings =["Pepperoni","Mushroom","Extra cheese","Sausage","Onion"];
 var sauces = ["Pesto","White Garlic Sauce","Garlic Ranch Sauce","Hummus","Buffalo Sauce"];
 
-let randompizza =createrandompizza(bread, protein,crust, cheese, toppings,sauces);
+let randompizza =createrandompizza(bread, protein,crust, cheese, toppings, sauces);
 
 console.log(randompizza)
